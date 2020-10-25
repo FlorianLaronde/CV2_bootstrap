@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* bg image navbar */
+#bg {
+    background-image: url("../img/andromede.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* animation reseaux sociaux */
+
+#followMe ul {
+    list-style: none;
+}
+
+
+#followMe .fa {
+    width: 35px;
+    height: 35px;
+    background: url(../img/facebook.png) no-repeat 0 1px;
+}
+
+#followMe .tw {
+    width: 35px;
+    height: 35px;
+    background: url(../img/twitter.png) no-repeat 0 1px;
+}
+
+#followMe .li {
+    width: 35px;
+    height: 35px;
+    background: url(../img/linkedin.png) no-repeat 0 1px;
+}
+
+#followMe .gi {
+    width: 35px;
+    height: 35px;
+    background: url(../img/github.png) no-repeat 0 1px;
+}
+
+#followMe a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 55px; 
+    padding-left: 20px;
+    margin-left: -20px;
+    transition:  425ms cubic-bezier(.05,.65,.18,1);
+}
+
+#followMe a:hover {
+    transform: translate3d(20px,0,0);
+}
+
+#followMe #facebook {
+    background-color: #4868ad;
+}
+
+#followMe #facebook span {
+    background-position: -3px -104px;
+}
+#followMe #twitter {
+    background-color: #3299ff;
+}
+
+#followMe #linkedin {
+    background-color: #0077ba;
+}
+
+#followMe #github {
+    background-color: #4e545a;
+}
+
+
+
+
